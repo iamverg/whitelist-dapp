@@ -6,7 +6,7 @@ contract Whitelist {
     uint8 public maxWhitelistedAddresses;
 
     // Create a mapping of whitelisted addresses
-    // if an adress is whitelisted, set it to true, it is false by default for
+    // if an address is whitelisted, set it to true, it is false by default for
     // other addresses
     mapping(address => bool) public whitelistedAddresses;
 
